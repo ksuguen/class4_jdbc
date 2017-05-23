@@ -25,7 +25,7 @@ public class MenuDAO {
 	private MenuDAO() { // 외부에서 접근하지못하게 프라이빗으로 접근지정자를 줌(싱글턴패턴)
 
 	}// MenuDAO
-
+ 
 	public static MenuDAO getInstance() {
 		if (m_dao == null) {
 			m_dao = new MenuDAO();
